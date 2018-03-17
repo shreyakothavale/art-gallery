@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .heading{
+         padding:20px;
+         background-color: #261a0d;
+         font-family:"Tahoma",sans-serif;
+         text-shadow: 2px 2px 4px  #604020;
+         color: #d2a679; margin: 0;
+         margin-bottom:5px;
+   
+}
+   .image{
+         margin-left: 5px;
+         margin-top:5px;
+         width:900px;height:500px
+}
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1a0d00;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    font-family:"Tahoma", sans-serif;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #662200;
+}
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  .column1{
+        float: left;
+        width:75%;
+}
+  .column2{
+        float: left;
+        width:25%;
+        background-color: #403326; margin-top:5px;
+        color: white;
+}
+  </style>
+</head>
+
+<body>
+ <h1 class="heading">Art Gallery</h1>
+ <ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">Exhibitions</a></li>
+  <li><a href="#contact">Galleries</a></li>
+  <li><a href="#about">About us</a></li>
+</ul>
+<div class="row" >
+<div class="column2">
+     <h2 style=padding:10px;>Welcome</h2><br>
+     <p style=padding:20px;>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.
+</p><br><br><br>
+</div>
+<div class=" column1"><img src="gallery.jpeg" alt="no img" class="image"></div>
+</div>
+</body>
+</html>
