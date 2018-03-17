@@ -1,82 +1,99 @@
 <!DOCTYPE html>
 <html>
-    <head>
-       <style>
-           .heading{
-         padding:20px;
-         background-color: #261a0d;
-         font-family:"Tahoma",sans-serif;
-         text-shadow: 2px 2px 4px  #604020;
-         color: #d2a679; margin: 0;
-        margin-bottom:5px;
-           }
-           ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #1a0d00;
-}
 
-li {
-    float: left;
-}
+<head>
+    <style>
+        .heading {
+            padding: 20px;
+            background-color: #261a0d;
+            font-family: "Tahoma", sans-serif;
+            text-shadow: 2px 2px 4px #604020;
+            color: #d2a679;
+            margin: 0;
+            margin-bottom: 5px;
+        }
 
-li a {
-    display: block;
-    font-family:"Tahoma", sans-serif;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #1a0d00;
+        }
 
-li a:hover {
-    background-color: #662200;
-}
-.row:after {
-    content: "";
-    display: table;
-    clear: both;}
-  .columnmain{
-      float:left;
-      width:80%;
-  }
-  .columnside{
-      float:left;
-      width:20%;
-      background-color: #403326; margin-top:5px;
-        color: white;
-     }
-      .imagestyle{
-        float: right;
-        margin-right:20px;
-        margin-left:10px;
-        width:40%;
-        height:300px;
+        li {
+            float: left;
+        }
 
-      }
-       </style>
-    </head>
-    <body>
-        <h1 class="heading">Art Gallery</h1>
-        <ul>
-         <li><a class="active" href="index.html">Home</a></li>
-         <li><a href="exhibition.html">Exhibitions</a></li>
-         <li><a href="#contact">Galleries</a></li>
-         <li><a href="#about">About us</a></li>
-       </ul>
-       <div class="row">
-       <div class="columnside"></div>
-       <div class="columnmain">
-           <h2>Exhibitions in Galleries</h2>
-           <h3>Indiaart Gallery</h3>
-           <p>Indiaart features paintings, sculptures and exhibitions by professional artists, emerging artists as well as child artists. Indiaart has taken special efforts to document the contribution made by old masters to Indian art. "Art Marketplace" on Indiaart enables art collectors to buy and sell art.</p>
-           <img  class="imagestyle" src="indiaart.jpeg" alt="India art">
-           <h3>The Monalisa Kalagram</h3>
-           <p>The Monalisa Kalagram is the dream venture of mother daughter duo, Mona and Lisa Pingale. Set in the serene (when the train is not thundering past, that is) and verdant Pingale Farms, the gallery wishes to not just display art but to nurture and promote all arts, visual, performing or written. </p>
-           <img  class="imagestyle" src="monalisa.jpg" alt="The monalisa kalagram"  >
+        li a {
+            display: block;
+            font-family: "Tahoma", sans-serif;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: #662200;
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .columnmain {
+            float: left;
+            width: 80%;
+            margin-left: 10%;
+        }
+
+        .imagestyle {
+            float: right;
+            margin-right: 20px;
+            margin-left: 10px;
+            height: 300px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="heading">Art Gallery</h1>
+    <ul>
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="exhibition.html">Exhibitions</a></li>
+        <li><a href="#contact">Galleries</a></li>
+        <li><a href="#about">About us</a></li>
+    </ul>
+    <div class="row">
+        <div class="columnmain">
+            <h2>Exhibitions in Galleries</h2>
+            <table>
+                <tr>
+                    <td>
+                        <h3>Indiaart Gallery</h3>
+                        <p>Indiaart features paintings, sculptures and exhibitions by professional artists, emerging artists
+                            as well as child artists. Indiaart has taken special efforts to document the contribution made
+                            by old masters to Indian art. "Art Marketplace" on Indiaart enables art collectors to buy and
+                            sell art.</p>
+                    </td>
+                    <td> <img class="imagestyle" src="indiaart.jpeg" alt="India art"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3>The Monalisa Kalagram</h3>
+                        <p>The Monalisa Kalagram is the dream venture of mother daughter duo, Mona and Lisa Pingale. Set in
+                            the serene (when the train is not thundering past, that is) and verdant Pingale Farms, the gallery
+                            wishes to not just display art but to nurture and promote all arts, visual, performing or written.
+                            </p>
+                    </td>
+                    <td><img class="imagestyle" src="monalisa.jpg" alt="The monalisa kalagram"></td>
+                </tr>
+            </table>
         </div>
-       </div>
-    </body>
+    </div>
+</body>
+
 </html>
