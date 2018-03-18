@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
- <head>
-   <style>
-       .heading {
+
+<head>
+    <style>
+        .heading {
             padding: 20px;
             background-color: #261a0d;
             font-family: "Tahoma", sans-serif;
@@ -37,23 +38,67 @@
             background-color: #662200;
         }
 
-   </style>
- </head>
+        table {
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+
+        .box {
+            background-color: #403326;
+            color: white;
+            padding: 25px;
+        }
+    </style>
+</head>
+
 <body>
     <h1 class="heading">Art Gallery</h1>
     <ul>
-        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="index.html">Home</a></li>
         <li><a href="exhibition.html">Exhibitions</a></li>
-        <li><a href="gallery.html">Galleries</a></li>
+        <li><a href="Gallery.html">Galleries</a></li>
         <li><a href="#about">About us</a></li>
     </ul>
     <h2>Famous Art Galleries Around the World</h2>
-    <table>
+    <table style="width:90%" border="0">
         <tr>
-            <h3>The Gagosian Gallery</h3>
-            <dt>Locations:</dt>
-            <dd>New York, London, Paris, Los Angeles, San Francisco, Rome, Athens, Geneva, and Hong Kong</dd>
+            <td width="33%"></td>
+            <td width="33%"></td>
+            <td width="34%"></td>
         </tr>
-        </table>
+        <tr>
+            <td colspan="2" class="box">
+                <h3>The Gagosian Gallery</h3>
+                <dt>Locations:</dt>
+                <dd>New York, London, Paris, Los Angeles, San Francisco, Rome, Athens, Geneva, and Hong Kong</dd>
+                <p>Gagosian Gallery was founded in 1980, initially in partnership with the dealer, Leo Castelli, in SoHo. Since
+                    then, the gallery has produced museum-quality shows using its unprecedented global presence—16 exhibition
+                    spaces designed by world-renowned architects, including Caruso St John, Richard Meier, and Jean Nouvel.
+                    In addition to a vibrant contemporary program, the gallery often presents historical exhibitions focusing
+                    on artists like Andy Warhol and Picasso.</p>
+
+            </td>
+            <td>
+                <img src="Gagosian.jpg" style = "width:100%" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="HauserandWirth.jpg" style="width:100%" />
+            </td>
+            <td colspan="2" class="box">
+                <h3>Hauser and Wirth</h3>
+                <dt>Locations:</dt>
+                <dd> New York, Los Angeles, Zürich, Somerset, and Gstaad</dd>
+                <p>Since 1992, the Hauser & Wirth gallery has challenged our ideas of what a “show” can be. Founded by Manuela
+                    Wirth and Ursula Hauser in Switzerland, the gallery has created exciting exhibitions, performances, happenings,
+                    environments, and more. They’ve also invested in multiple arts education efforts, including an Arthaus
+                    program for teenagers at their Somerset location and Mark Bradford's Art + Practice youth program in
+                    Los Angeles, as well as published over 100 titles. </p>
+
+            </td>
+        </tr>
+    </table>
 </body>
+
 </html>
